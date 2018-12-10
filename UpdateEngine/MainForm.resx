@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtUpdateMessages.Text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mollis elementum ex elementum iaculis. Nam in egestas mauris. Suspendisse pretium libero eget ligula sagittis, nec sagittis sem semper. Nunc vitae nisi et orci luctus vulputate. Cras varius iaculis est ut bibendum. Ut venenatis nunc nec nulla fermentum hendrerit. Etiam eu erat at elit lacinia pretium. Proin quis magna lobortis, gravida eros vel, volutpat elit.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam id lorem elementum, malesuada eros vitae, ullamcorper nisl. Ut libero nunc, dictum a commodo nec, luctus sed augue. Donec sodales, massa in mattis lobortis, mi ligula suscipit nisi, id mattis elit dolor sed purus. Nulla libero neque, accumsan vitae enim in, iaculis malesuada magna. Sed varius metus at malesuada mollis. Praesent eu lorem enim. Praesent sodales vel nisi a sagittis.
+
+Sed faucibus at sem eu mattis. Nullam tempor tincidunt neque nec facilisis. Curabitur metus ligula, feugiat id ligula facilisis, volutpat ultricies mauris. Cras sit amet ligula a leo semper dictum non non lorem. In commodo lobortis vestibulum. Vivamus vel leo erat. Integer gravida odio ut porta aliquam. Aenean pulvinar et ante a tincidunt. Mauris posuere egestas velit, in sagittis mauris sollicitudin a. Sed ullamcorper porttitor enim, vitae cursus leo mattis ornare. Cras ullamcorper eros a iaculis imperdiet. Integer eget elit nisi. Duis gravida, dui vel facilisis auctor, ante ex pretium leo, in semper lacus ipsum non augue. Aenean pulvinar turpis odio, ut auctor sem efficitur a. Praesent rutrum nulla a sapien congue sodales.
+
+Proin a nunc consectetur, consectetur nisl eu, semper felis. Nam tempor eget libero id tristique. Sed eu porta dolor. Nulla velit nunc, eleifend sit amet dolor ut, egestas cursus massa. Quisque lobortis et tortor vitae pharetra. Morbi pulvinar consectetur diam, ac lacinia velit eleifend eu. Nullam congue libero elementum lacinia convallis. Maecenas eleifend luctus tellus, sit amet rhoncus augue tempus at. Suspendisse potenti. Ut in cursus risus, et varius magna. Maecenas pellentesque nunc a felis auctor, gravida pharetra nisl congue. Nam aliquet est id tempor varius.
+
+Integer condimentum non turpis et laoreet. Curabitur viverra justo bibendum, egestas felis non, suscipit velit. Nunc auctor ornare sem sit amet viverra. Nulla fermentum eros ut varius gravida. Quisque et ex at dui sodales porta sed non nulla. Pellentesque ultricies leo sit amet dignissim iaculis. Sed ornare lobortis aliquam. Pellentesque in purus nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam sodales pharetra libero a ornare.
+
+Mauris volutpat justo nunc, et commodo augue sollicitudin in. Vestibulum in neque facilisis, laoreet nisi eget, dapibus eros. Proin fermentum nisl a faucibus gravida. Vivamus posuere ultricies nulla. Proin euismod, dolor vel aliquam rutrum, neque risus dictum lectus, sit amet euismod dolor neque ut ligula. Ut in elementum est. Nulla facilisi. Etiam pretium egestas erat tempus euismod. Suspendisse eleifend enim neque, ac convallis orci condimentum vitae. Fusce finibus aliquam eros.
+
+Phasellus condimentum luctus erat, ultrices pulvinar augue tempor ac. Nullam hendrerit metus ex, bibendum consequat ante condimentum vel. In fermentum nisl mauris. Duis porta purus cursus efficitur viverra. Nullam ac dignissim libero, quis tincidunt felis. Vivamus tincidunt vel mauris eget consectetur. Praesent gravida, massa id scelerisque cursus, ante sem vestibulum justo, in malesuada lorem tortor id metus. Praesent eget orci orci.
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse faucibus pulvinar nisi eget luctus. Duis semper non tellus ut mattis. Nullam rhoncus ac sapien eget pharetra. Nunc magna nisi, ullamcorper non posuere imperdiet, placerat eu felis. Etiam non turpis sit amet leo venenatis eleifend eget vitae turpis. Morbi aliquam dui eleifend metus egestas sodales. Proin in ultricies sem. Etiam venenatis tellus eget ante sodales mattis. In iaculis nec orci ut accumsan.
+
+In bibendum sit amet ligula eu sollicitudin. Vestibulum fermentum posuere sem eu ultrices. Nam at mi sed enim bibendum vestibulum et sit amet lorem. Duis eget erat tincidunt, venenatis quam nec, vulputate eros. Fusce eu venenatis ipsum, non rutrum quam. Maecenas eget commodo est. Mauris eget magna ante. Praesent porttitor varius augue, aliquet maximus leo faucibus eu.
+
+Maecenas eget turpis id tortor egestas hendrerit. Fusce ac dolor ullamcorper, dignissim risus a, varius massa. Morbi pulvinar pretium mollis. Suspendisse eget dictum lacus. Donec dapibus eget ex quis placerat. Donec id egestas justo, dignissim ornare erat. Fusce malesuada turpis et laoreet rutrum. Quisque tincidunt lacinia augue, eget varius ipsum accumsan a. Morbi sollicitudin erat at finibus venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc nec neque quis dolor eleifend malesuada porttitor ultricies nisi. Pellentesque convallis bibendum commodo. Nunc felis urna, molestie quis eleifend et, tristique vitae justo. Vivamus id luctus turpis. Morbi rhoncus odio nec molestie viverra.
+
+Praesent ut egestas turpis, id laoreet diam. Aenean ullamcorper risus enim, ac cursus tellus fringilla ut. Morbi quis tempor diam. Nunc sollicitudin ultrices malesuada. Integer ac rutrum justo. Curabitur eleifend viverra enim nec euismod. Mauris metus massa, efficitur ut erat quis, ornare feugiat mi. Sed gravida, nunc eu imperdiet cursus, nibh arcu accumsan dui, nec iaculis lacus mauris quis quam.
+
+Nullam scelerisque faucibus dictum. Proin justo ligula, efficitur nec nisl ac, elementum vehicula ipsum. Nunc vel cursus velit, sit amet posuere lacus. Pellentesque interdum magna ut imperdiet molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam sapien diam, molestie quis massa eget, vehicula volutpat dui. Integer neque quam, consequat in purus at, porttitor placerat massa. Curabitur quis ullamcorper ex, quis ullamcorper urna.
+
+Aliquam in ipsum justo. Nunc porta, turpis nec ultrices cursus, purus mi iaculis neque, ac blandit orci tortor sit amet neque. Praesent in faucibus sapien. Ut ut turpis sapien. Donec dignissim eu justo ut placerat. Sed et dictum erat, at consectetur nibh. Ut lectus nunc, fringilla eu interdum et, faucibus a enim. Nunc non vehicula justo, vel ullamcorper risus. In mauris sapien, tempor ut ipsum et, euismod hendrerit quam. Vivamus egestas, tellus sed aliquet tincidunt, ante ante blandit lorem, sit amet blandit turpis augue a arcu. Ut auctor risus vel finibus auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse lobortis, lectus sit amet rhoncus venenatis, nulla mi posuere purus, vel tempor turpis lectus quis diam.
+
+Vivamus interdum, nibh ut condimentum mattis, elit nibh porttitor orci, a porttitor est mauris ac eros. Cras egestas, neque sed rhoncus porttitor, lectus lectus facilisis ligula, sed placerat sem risus vitae est. Nullam ligula quam, dignissim a aliquet eu, varius aliquam ante. Suspendisse potenti. Maecenas nec augue eleifend, semper orci non, vestibulum sem. Proin sodales sem tellus. Suspendisse sed ligula nibh. Phasellus finibus velit at elit ullamcorper placerat. Maecenas et nisi vel metus fermentum viverra in non massa. Curabitur sed laoreet ipsum, vel scelerisque nunc. Vivamus luctus consectetur risus, at ultrices magna dignissim in.
+
+Fusce arcu est, aliquet quis suscipit quis, volutpat non tortor. Mauris justo mauris, elementum id ante non, finibus vestibulum eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam sit amet rhoncus arcu. Mauris in vestibulum ipsum. Fusce efficitur fringilla nisi, id fermentum tellus sollicitudin in. Suspendisse tristique pretium suscipit. Sed ut lectus scelerisque, sodales nisl sed, tincidunt dui. Etiam semper facilisis scelerisque. Praesent tempor diam varius elementum iaculis. Maecenas faucibus, elit vel lobortis auctor, sapien elit tempor.
+</value>
+  </data>
+  <metadata name="backgroundWorker001.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
